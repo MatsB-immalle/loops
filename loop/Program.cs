@@ -10,6 +10,13 @@ namespace loop
     {
         static void Main(string[] args)
         {
+            int x = 10;
+            while (x > 3)
+            {
+                x--;
+                Console.WriteLine(x);
+            }
+
         }
     }
 }
