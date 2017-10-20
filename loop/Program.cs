@@ -10,13 +10,20 @@ namespace loop
     {
         static void Main(string[] args)
         {
-            int x = 10;
-            while (x > 3)
-            {
-                x--;
-                Console.WriteLine(x);
-            }
+            Console.WriteLine("geef je code in: ");  
+            
+            string code = Console.ReadLine();
 
+            if (code == "1901")
+            {
+                Console.WriteLine("goed zo");
+            }
+            else
+            {
+                Console.WriteLine("fout");
+            }
         }
+
+    
     }
 }
